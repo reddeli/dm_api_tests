@@ -10,7 +10,6 @@ def put_v1_account_token():
     token = '12345'
     url = f"http://localhost:5051/v1/account/{token}"
 
-    payload = {}
     headers = {
       'X-Dm-Auth-Token': '<string>',
       'X-Dm-Bb-Render-Mode': '<string>',
